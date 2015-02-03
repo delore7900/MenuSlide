@@ -1,0 +1,57 @@
+html{
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	}
+	
+body{
+    text-align: center;
+    font-size: 8rem;
+    background: lightgray;
+	font-weight: bold;
+    color: black;
+	margin: 0;
+	padding: 0;
+	text-shadow: 1rem 1rem 1rem lightgreen;
+}
+
+.stack{
+	position: absolute;
+	right: 0;
+	width: 100rem;
+	min-height: 100%;
+}
+#back{
+	z-index: 0;
+	background: lightgreen;
+}
+#front{
+	z-index: 1; 
+	width: 90rem;
+	background: lightblue;
+}
+
+#content{
+		margin: 0 auto;
+		text-align: center;
+		box-shadow: 4rem 1rem 5rem black;
+		min-height: 10 rem;
+		background: lightgreen;
+   
+}
+
+#menu{
+	width: 10%;
+	padding: bottom;
+	padding-top: 10%;
+	background: url(../images/menu.png) no-repeat center;
+	background-size: contain;
+	float: left;
+	margin-left: 2rem;
+	
+
+}
+
+	
